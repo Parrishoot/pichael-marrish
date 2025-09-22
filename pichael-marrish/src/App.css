@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Sono:wght@200..800&display=swap');
+
+:root {
+  --primary-color: #DB4C40;
+  --secondary-color: #f4f3ee;
+  --accent-color-1: #847996;
+  --background-color: #272D2D;
+}
+
+.App {
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #f4f3ee;
+  margin: 0;
+  padding: 0;
+  font-family: 'DM Mono';
+}
+
+@media all and (max-width: 1200px) {
+  .Container {
+      margin: 5%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .Container {
+      margin-top: 5%;
+      margin-bottom: 5%;
+      margin-left: 30%;
+      margin-right: 30%;
+  }
+}
+
+
+.Logo {
+  width:175px;
+  height:15%;
+  object-fit: cover;
+  padding-right: 1.25em;
+}
+
+.GameDevProject {
+  font-size: .5em;
+  white-space: pre;
+  text-decoration: none;
+}
+
+.GameDevProjectText {
+  white-space: pre;
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.GameDevProjectText:hover {
+  color: var(--primary-color);
+}
+
+.GameDevProjectContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  color: var(--secondary-color);
+  margin-bottom: 2.5%;
+}
+
+.HeaderText {
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary-color);
+  padding-right: 30px;
+}
+
+body {
+  background-color: var(--background-color);
+  background-image: radial-gradient(#84799619 2px, transparent 0);
+  background-size: 15px 15px;
+  background-position: -19px -19px;
+}
+
+h1 {
+  margin: 0px;
+  color: var(--primary-color);
+  font-weight: normal;
+}
+
+.SectionHeader {
+  color: var(--accent-color-1);
+  font-size: 1em;
+  padding-top: .8em;
+}
+
+.SectionText {
+  font-size: .6em;
+  padding-top: .8em;
+}
+
+h5 {
+  margin: 0px;
+  font-weight: normal;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
