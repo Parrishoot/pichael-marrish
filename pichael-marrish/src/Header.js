@@ -6,7 +6,7 @@ function Header() {
     <div className="Header">
       <img className="Logo" src={logo} />
       <div className="HeaderText">
-        <h1>Michael&nbsp;Parrish</h1>
+        <h1>Michael Parrish</h1>
         <h5>Software Engineer, Boston MA</h5>
       </div>
     </div>

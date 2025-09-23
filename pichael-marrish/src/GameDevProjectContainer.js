@@ -15,11 +15,11 @@ const project1Text = `
 |                        |
 |------------------------|
 |       PERSPECTIVE      |
--------------------------|
+|------------------------|
 | A bullet hell shooter  |
 | that swaps between     |
 | first person and top   |
-| perspectives           |
+| down perspectives      |
 --------------------------
 `;
 
@@ -40,7 +40,7 @@ const project2Text = `
 |------------------------|
 | A radial falling block |
 | game similar to        |
-| Tetris, with Color     |
+| Tetris, with color     |
 | matching mechanics     |
 --------------------------
 `;
@@ -60,7 +60,7 @@ const project3Text = `
 |------------------------|
 |       HOLE PUNCH       |
 |------------------------|
-| An very stupid typing  |
+| A very stupid typing   |
 | game where you launch  |
 | yourself in the air to |
 | punch a very deep hole |

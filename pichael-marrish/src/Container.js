@@ -8,7 +8,7 @@ const sectionOneText="Welcome! I'm a software engineer who's always trying to fi
 
 const sectionTwoText="In my free time, I like to work on small game projects, usually in the Unity engine. I've competed in multiple game jams, and am currently working on a larger scale project I'm hoping to show off soon.";
 
-const sectionThreeText="Below are a couple of my favorite game-dev projects that I've completed, click one to give it a try:";
+const sectionThreeText="Below are a couple of my favorite game-dev projects that I've completed - click one to give it a try:";
 
 const sectionFourText =  <>You can check out the rest of my games on my <a href="google.com">itch.io</a> page! </>;
 
