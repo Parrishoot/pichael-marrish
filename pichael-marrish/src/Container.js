@@ -10,7 +10,7 @@ const sectionTwoText="In my free time, I like to work on small game projects, us
 
 const sectionThreeText="Below are a couple of my favorite game-dev projects that I've completed - click one to give it a try:";
 
-const sectionFourText =  <>You can check out the rest of my games on my <a href="google.com">itch.io</a> page! </>;
+const sectionFourText =  <>You can check out the rest of my games on my <a href="https://pichaelmarrish.itch.io">itch.io</a> page! </>;
 
 const sectionFiveText = <>To check out any other projects I may be working on (including this website), feel free to take a peek at my <a href='https://github.com/Parrishoot'>Github</a>.</>
 
