@@ -48,31 +48,31 @@ const project2Text = `
 const project3Text = `
 --------------------------
 |                        |
-|                        |
-|         ,--.--._       |
-|     ---" _, \\___)      |
-|     |    /  /____)     |
-|     |    \\//(____)     |
-|     ---\      (__)      |
-|         \`-----"        |
-|                        |
+|             @@@        |
+|             @@@@@      |
+|             @@  @@@    |
+|             @@    @    |
+|         @@@@@@         |
+|        @@@@@@@         |
+|       @@@@@@@@         |
+|        @@@@@@          |
 |                        |
 |------------------------|
-|       HOLE PUNCH       |
+|   DISORDERLY CONDUCT   |
 |------------------------|
-| A very stupid typing   |
-| game where you launch  |
-| yourself in the air to |
-| punch a very deep hole |
+| A puzzle solving game  |
+| where you need to act  |
+| quickly to keep your   |
+| orchestra in time      |
 --------------------------
 `;
 
 function GameDevProjectContainer() {
   return (
     <div className='GameDevProjectContainer'>
-        <GameDevProject projectString={project1Text} projectLink={"https://pichaelmarrish.itch.io/perspective"}/>
         <GameDevProject projectString={project2Text} projectLink={"https://pichaelmarrish.itch.io/color-wheel"}/>
-        <GameDevProject projectString={project3Text} projectLink={"https://pichaelmarrish.itch.io/hole-punch"}/>
+        <GameDevProject projectString={project1Text} projectLink={"https://pichaelmarrish.itch.io/perspective"}/>
+        <GameDevProject projectString={project3Text} projectLink={"https://pichaelmarrish.itch.io/disorderly-conduct"}/>
     </div>
   );
 }
